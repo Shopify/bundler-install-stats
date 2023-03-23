@@ -79,14 +79,6 @@ module BundlerInstallStats
       end
 
       def public_gem?(gem_spec)
-        if gem_spec.is_a?(Bundler::Source::Metadata)
-          puts "*" * 10
-          pp(gem_spec)
-          puts "*" * 10
-
-          raise "bad"
-        end
-
         remotes = begin
           gem_spec.source.remotes
         rescue

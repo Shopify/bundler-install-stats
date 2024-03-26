@@ -3,7 +3,7 @@ name: bundler-install-stats
 type: ruby
 
 up:
-  - ruby: '3.2.1'
+  - ruby
   - bundler
 
 commands:

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "A Bundler plugin for measuring gem installation stats."
   spec.description   = "A plugin for measuring gem installation stats. Discover which are your slowest gems to install."
   spec.homepage      = "https://github.com/Shopify/bundler-install-stats"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
